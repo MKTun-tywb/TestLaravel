@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+/* GENERAL STYLES */
+:root {
+  --Lilgrey: #2c3e50;
+  --mainWhite: #fff;
+  --mainBlack: #071013;
+  --mainGrey: #9b9999;
+  --kingCrimson: #e74c3c;
+  --TransGrey: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0px;
+  padding: 0px 10px;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: "Pacifico", cursive;
+}
+
+.text-slanted {
+  font-family: "Calligraffitti", cursive;
+}
+
+/*INDEX*/
+.navbar-toggler {
+  outline: none !important;
+  font-size: 2rem;
+  border: 3px solid var(--mainBlack);
+  border-radius: 5rem;
+  color: var(--Lilgrey) !important;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  border-bottom: 0.1rem solid var(--mainWhite);
+}
+
+.nav-active {
+  border-bottom: 0.1rem solid var(--kingCrimson);
+}
+
+.navbar-icon {
+  font-size: 1.5rem;
+}
+
+.row {
+  background: #e5e4e2;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid var(--Lilgrey);
+  border-radius: 2em;
+  ;
+}
+
+.footer-css {
+  padding: 0px 5px;
+}
+
+.footer-ul {
+  list-style: none;
+  margin: 10px;
+  padding: 0px;
+}
+
+
+.footer-ul>li>a {
+  text-decoration: none;
+  color: var(--mainBlack);
+}
+
+.footer-ul>li>a:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.column1,
+.column2 {
+  padding: 15px;
+  border-right: 2px groove var(--mainBlack);
+
+}
+
+i {
+  font-size: 50px;
+}
