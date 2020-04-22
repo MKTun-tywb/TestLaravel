@@ -42,7 +42,7 @@
 @section('nav')
 <li class="nav-item mx-2">
   @if(session('code') == 'admin123')
-  <a class="nav-link" href="../homes/admin123">Home</a>
+  <a class="nav-link" href="homes/admin123">Home</a>
   @else
     <a class="nav-link" href="homes">Home</a>
     @endif

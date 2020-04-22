@@ -5,16 +5,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="{{asset('/css/bootstrap.min.css')}}" />
   <link rel="stylesheet" href="{{asset('/css/main.css')}}" />
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" />
   <link rel="stylesheet" href="{{asset('/css/main.css')}}">
+  <link rel="stylesheet" href="{{asset('/css/all.css')}}">
   <link rel="stylesheet" href="{{asset('../css/datatables.min.css')}}" />
   <script src="{{asset('../js/datatables.min.js')}}" type="text/javascript"></script>
+  <link rel="shortcut icon" type = "image/png" href="{{asset('/Fish_Image/logo crop.jpg')}}">
 
 
-
-  @yield('title')
+  <title>Aqua Oranamental</title>
 </head>
 
 <body>
@@ -54,18 +56,18 @@
       <div class=" footer-css col-lg-4 col-sm-3  col-md-3 text-center column2">
 
         <h4 style="text-decoration:  underline wavy;">Follow Us</h4>
-        <i class="fab fa-facebook m-2"></i>
-        <i class="fab fa-twitter m-2"></i>
+        <i class="fab fa-facebook m-2" style = 'color:blue;'></i>
+        <i class="fab fa-twitter m-2" style = 'color:#1DA1F2;'></i>
       </div>
       <div class="footer-css  col-lg-4 col-sm-4 col-md-4 text-center column3">
         <h4 style="text-decoration:  underline wavy;">Aqua Ornamental</h4>
         <ul class="footer-ul">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="homes">Home</a></li>
           @if(session('code') == 'admin123')
           <li><a href="add">Add Fish</a></li>
           @endif
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="">About</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li><a href="about">About</a></li>
         </ul>
       </div>
     </div>
@@ -74,6 +76,7 @@
   </footer>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="js/app.js"></script>
 	<script src="js/datatables.min.js" type="text/javascript"></script>
 

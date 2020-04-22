@@ -29,7 +29,7 @@
 </li>
 @if(session('code') == 'admin123')
 <li class="nav-item mx-2  ">
-  <a class="nav-link" href="add">Add Fish</a>
+  <a class="nav-link" href="../add">Add Fish</a>
 </li>
 @endif
 <li class="nav-item mx-2">

@@ -27,9 +27,11 @@
 </div>
 @endsection
 @section('nav')
-<li class="nav-item mx-2">
+@if(session('code') == 'admin123')
+<a class="nav-link" href="homes/admin123">Home</a>
+@else
   <a class="nav-link" href="homes">Home</a>
-</li>
+  @endif
 <li class="nav-item mx-2  nav-active">
   <a class="nav-link" href="add">Add Fish</a>
 </li>

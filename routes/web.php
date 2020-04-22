@@ -14,6 +14,7 @@
 Route::get('/add', function () {
     return view('add');
 });
+Route::get('/', 'FishController@home');
 Route::post('/add', 'FishController@create');
 Route::get('/homes', 'FishController@home');
 Route::get('/homes/{code}', 'FishController@admin');
