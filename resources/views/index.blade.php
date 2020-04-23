@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{{asset('../css/datatables.min.css')}}" />
   <script src="{{asset('../js/datatables.min.js')}}" type="text/javascript"></script>
   <link rel="shortcut icon" type = "image/png" href="{{asset('/Fish_Image/logo crop.jpg')}}">
-
+<script src="https://kit.fontawesome.com/1798a401ee.js" crossorigin="anonymous"></script>
 
   <title>Aqua Oranamental</title>
 </head>
@@ -74,7 +74,7 @@
     <br>
     <h6 class="text-center">Copyright Reserved @ 2019 Aqua Ornamental Fish Farm Co.,Ltd;</h6>
   </footer>
-  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="js/app.js"></script>
