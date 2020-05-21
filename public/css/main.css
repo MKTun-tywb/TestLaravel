@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 /* GENERAL STYLES */
 :root {
@@ -15,11 +15,11 @@ body {
   padding: 0px 10px;
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: "Pacifico", cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 .text-slanted {
-  font-family: "Calligraffitti", cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*INDEX*/
@@ -84,4 +84,20 @@ body {
 
 i {
   font-size: 50px;
+}
+
+.fa-bars {
+  font-size: 30px;
+  padding: 5px;
+}
+
+@media (max-width:575px) {
+
+  .column1,
+  .column2 {
+    padding: 15px;
+    border-right: 0px;
+    border-bottom: 2px groove var(--mainBlack);
+
+  }
 }
