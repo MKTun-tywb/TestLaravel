@@ -13,8 +13,8 @@
 body {
   margin: 0px;
   padding: 0.001px 10px;
-  color: var(--mainBlack);
-  background: var(--mainWhite);
+  color: var(--mainWhite);
+  background: var(--mainBlack);
   font-family: 'Raleway', sans-serif;
 }
 
