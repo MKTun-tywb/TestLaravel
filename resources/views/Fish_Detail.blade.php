@@ -2,7 +2,7 @@
 
 @extends('index')
 @section('content')
-<div class="container">
+<div class="container" style="font-style:italic;">
   <img src="../Fish_Image/{{$data -> fish_Image}}" alt="" height = "200" width="200" class="img-thumbnail"><br><br>
   <label for="name">Fish Name</label>
   <input type="text" name="fish_Name" value="{{$data -> fish_Name}}" id="name"class = "form-control" readonly><br>
