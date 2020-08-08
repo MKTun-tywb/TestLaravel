@@ -49,9 +49,10 @@
     <div class="row">
       <div class=" footer-css col-lg-4 col-sm-5 col-md-5 column1">
         <h5 class="text-center" style="text-decoration:  underline wavy;">Contact Us</h5>
-        Founder: Example <br>
-        Phone Number: 09-xxxxxxx <br />
-        Email: someemail@example.com
+        Founder: U Soe Nyunt Tun <br>
+        Phone Numbe 1r: 09-5115819 <br />
+        Phone Number 2: 09-975555733 <br />
+        Email: aquaticornamental@gmail.com
       </div>
       <div class=" footer-css col-lg-4 col-sm-3  col-md-3 text-center column2">
 
